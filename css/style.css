@@ -1,0 +1,63 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+a {
+	color: #990;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+p {
+	margin: 0 0 10px 0;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 10px 0;
+}
+.container {
+	width: 100%;
+	max-width: 1024px;
+	margin: auto;
+}
+.row {
+	overflow: hidden;
+}
+.grid {
+	float: left;
+	min-height: 1px;
+	box-sizing: border-box;
+	padding: 30px;
+	border: solid 2px #889966;
+}
+.grid-12 {
+	width: 100%;
+}
+.grid-6 {
+	width: 50%;
+}
+.text-center {
+	text-align: center;
+}
+.text-left {
+	text-align: left;
+}
+.text-right {
+	text-align: right;
+}
+.radios,
+.checkboxes {
+	margin: 10px 0;
+}
+.input-wrapper {
+	border: solid 1px orange;
+}
+.pagination {
+	margin-top: 20px;
+}
+.pagination .pagination-item {
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	background-color: #ef3;
+}
